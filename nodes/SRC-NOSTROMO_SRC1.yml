@@ -1,0 +1,92 @@
+fileVersion: 1
+id: 7ad620ee-774c-403c-b929-6fac18f47211
+name: NOSTROMO_SRC1
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9ea603d2-0a52-4cbe-8728-f6f600d4ad48
+          stepCounter: 7ad620ee-774c-403c-b929-6fac18f47211
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: N_CREWKEY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0789e70e-1f7b-429e-a028-9c3c8a8dda3c
+          stepCounter: 7ad620ee-774c-403c-b929-6fac18f47211
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: N_FIRSTNAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 850cb18c-91ae-4e91-8449-8590b73830c9
+          stepCounter: 7ad620ee-774c-403c-b929-6fac18f47211
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: N_LASTNAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6a94979b-a641-43c2-9f3f-4387dbe4c549
+          stepCounter: 7ad620ee-774c-403c-b929-6fac18f47211
+        config: {}
+        dataType: VARCHAR(152)
+        defaultValue: ""
+        description: ""
+        name: N_COMMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: NOSTROMO_SRC1
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
